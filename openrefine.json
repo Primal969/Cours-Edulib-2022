@@ -1,0 +1,78 @@
+[
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "region",
+          "expression": "value",
+          "columnName": "region",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "AB",
+                "l": "AB"
+              }
+            },
+            {
+              "v": {
+                "v": "NT",
+                "l": "NT"
+              }
+            },
+            {
+              "v": {
+                "v": "QC",
+                "l": "QC"
+              }
+            },
+            {
+              "v": {
+                "v": "NB",
+                "l": "NB"
+              }
+            },
+            {
+              "v": {
+                "v": "MB",
+                "l": "MB"
+              }
+            },
+            {
+              "v": {
+                "v": "SK",
+                "l": "SK"
+              }
+            },
+            {
+              "v": {
+                "v": "YT",
+                "l": "YT"
+              }
+            },
+            {
+              "v": {
+                "v": "NL",
+                "l": "NL"
+              }
+            },
+            {
+              "v": {
+                "v": "ON",
+                "l": "ON"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  }
+]
